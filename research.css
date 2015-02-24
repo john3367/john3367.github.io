@@ -1,0 +1,45 @@
+body{
+  background:#D3D3D3;
+
+}
+.wrap{
+  margin: 0 auto;
+  width: 960px;
+}
+.art{
+  background:#fff;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+  margin-top:40px;
+}
+.begin{
+  clear:both;
+  padding: 20px;
+}
+.paper{
+  clear:both;
+  padding: 20px;
+  background: #FF8C00;
+  border-top: 5px solid #000000;
+}
+.quote{
+  background:#E8E8E8;
+  margin:0 auto;
+  width:350px;
+  padding:10px;
+  box-shadow: 0 0 15px rgba(0,0,0,.5);
+  border-bottom-right-radius: 5px solid ##E8E8E8;
+  border-bottom-left-radius: 5px solid ##E8E8E8;
+}
+h1{
+  text-align:center;
+}
+h2{
+  text-align:center;
+}
+.source{
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}

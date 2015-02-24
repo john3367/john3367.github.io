@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <title>LaTrisha Johnson Github Pages</title>
+    <link rel="stylesheet" href="research.css">
   </head>
   <body>
-    <h1>Trisha Johnson</h1>
-    <p><img src="img/beach.jpg" alt="photo" /></p>
+    <div class="wrap">
+      <article class="art" id="art-1">
+      <center><img src="img/ama.jpg" alt="Amazon"style="width:450px;height:230px"></center> <!-- https://www.google.com/search?q=amazon&espv=2&biw=1422&bih=711&source=lnms&tbm=isch&sa=X&ei=KN7rVMrGM4f6yATKkIDgCw&ved=0CAkQ_AUoBA&dpr=0.9#imgdii=_&imgrc=PQTCEeqVBC8QrM%253A%3B89TczHLmBOxYEM%3Bhttp%253A%252F%252Fmedia.corporate-ir.net%252Fmedia_files%252FIROL%252F97%252F97664%252Fimages%252Famazon_logo_RGB.jpg%3Bhttp%253A%252F%252Fphx.corporate-ir.net%252Fphoenix.zhtml%253Fc%253D97664%2526p%253Dirol-irhome%3B1250%3B458 -->
+      <h1>Inside the Technology Stack of Amazon.com, Inc.</h1>
+      <h2>By: LaTrisha Johnson</h2>
+      <section class="begin">
+      <p>Amazon.com is an e-commerce company that began as an online bookstore. Today this company is known for selling a wide range of items such as toys, electronics, software, and much more. Amazon.com has separate websites for more than 14 different countries (Wiki). With items being sold 24/7 around the globe, the technology stack powering this company is composed of many powerful components and services.</p>
+    </section>
+      <section class="paper">
+        <h3>Web & Database Servers</h3>
+        <p>Amazon's data and web applications are all ran and stored in Linux driven servers. In the year 2005, Amazon was recognized for having three of the largest database servers with a total capacity of 7.8, 18.5, and 24.7 terabytes (How Things Work, Layton). The company's main data warehouse is made up of 28 Hewlett Packard servers with four CPU's per node, divided into three functional parts (How Things Work, Layton). </p>
+        <p>These functional parts include query, historical data, and extract, transform, and load (ETL). The query data server is able to store the largest amount of data with a capacity of 24.7 TB. Currently it holds about 15 TB of raw data (How Things Work, Layton). Amazon's information architecture has to be able to handle millions of sellers, items, and history of all transactions 24/7. Holidays are when these servers are tested the most because of the millions of users that are online shopping at once. Oracle 9i Database software is in place to keep all of this information organized providing a simple and efficient way to view data. </p>
+        <h3>Special Software</h3>
+        <p>The purpose of a database is to store and retrieve data at any given time. Oracle's database products are in place to organize data so that the human eye is able to manage and study information. This information that a company stores is used to help solve informational problem and increase company profit along with customer satisfaction. As stated previously, 9i Database is special software in place to keep data organized and secure. This software created by Oracle used the SQL language that allows its users to create tales, find relations between entities, and much more. 9i database software allows Amazon to manually control and manage stored information on servers, enhance data security, to keep members credit card numbers private, and so on. </p>
+        <p>Neo4j graphing database software is another component that helps to manage Amazon's piles of information. Graph databases use nodes and the connections between them to describe networks and contexts (Wolpe). Amazon is one of the major online companies that are already beginning to think about the future of data architecture. They are looking for ways to read and store data better along with being able to make it seem as if nothing is wrong in the consumer's eyes when servers go down. This software materializes the relationships entities as they are created; this way there is no lack in the runtime for complex queries.  </p>
+        <h3>Open Source Software</h3>
+        <p>Open source software is what many companies are turning to these days. Software can be purchased at a low cost and the desired application is almost complete. All that is needed is for a software developer to go in and tweak the code to personalize it to meet the needs of the company. When a company decides to release its own source code rather than using someone else's code this can seem like a negative thing for the company but there are some advantages. Amazon recently jumped on the bandwagon by releasing software code used by the Kindle device. </p>
+        <section class="quote">
+        <p></center>  "I seriously doubt a competitor will
+          try and beat Amazon in the
+          e-book reader device market by using
+          the open source Kindle software."- Savio Rodrigues </p></center>
+        </section>
+        <p>Amazon's Kindle is the only electronic reader that continues to evolve and is a best seller. With the Kindle source code now open to competitors this gives the device a chance to become an application platform in the future (Open Sources, Rodrigues). By creating a Kindle application platform Amazon is now able to sell its product to competitors or work with them to gain more customers.</p>
+        <h3>Online Security </h3>
+        <p>For customer's safety, Amazon uses Netscape Secure Commerce Server. This service uses the secure socket layer (SSL) protocol for secure online communication. Customer's informmation such as name, address, and credit card information are stored in a separate non internet-accessible database that blocks entry points for any possible hackers (How Things Work, Layton). </p>
+        <p>The Transmission Control/IP (TCP/IP) protocol layer directs and transports data over the Internet. The SSL protocol is what keeps private information private. SSL uses the TCP/IP to check for authenticity from certain servers and SSL enabled clients. Like any other secure website Amazon.com also using Hypertext Transfer Protocol Secure (HTTPS), a secure language to communicate back and fourth between their servers and the customers computer within a public network.  </p>
+      </section>
+        <section class="source">
+        <center><h3>Sources</h3></center>
+        <center><p>http://money.howstuffworks.com/amazon1.htmDfgsdfgdfsgdfg</p></center>
+        <center><p>http://en.wikipedia.org/wiki/Amazon.com</p></center>
+        <center><p>http://docs.oracle.com/cd/B10501_01/server.920/a96524.pdfDsgfdsgfdgdsfg</p></center>
+        <center><p>http://www.zdnet.com/article/look-at-what-google-and-amazon-are-doing-with-databases-thats-your-future/gdsfggsdgdfs</p></center>
+        <center><p>http://neo4j.com/developer/graph-database/</p></center>
+        <center><p>http://www.infoworld.com/article/2632876/techology-business/why-did-amazon-open-source-its-kindle-software-.html</p></center>
+        <center><p>http://en.wikipedia.org/wiki/Netscape</p></center>
+        <center><p>http://www.cryptoheaven.com/Security/Presentation/SSL-protocol.htm</p></center>
+    </section>
+    </article>
+    </div>
   </body>
 </html>
